@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    text-align: center;
+    background: crimson;
+    background-image: url('/images/valwp.png');
+    
+}
+
+h1{
+    font-family: 'Valorant';
+    font-size: 45px;
+}
+
+h2{
+    font-family: 'Valorant';
+}
+
+input{
+    height: 40px;
+    width: 220px;
+    font-family: Valorant;
+    border: 4px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
