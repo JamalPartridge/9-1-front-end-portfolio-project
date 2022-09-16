@@ -15,6 +15,13 @@ h2{
     font-family: 'Valorant';
 }
 
+img{
+
+    align-items: center;
+}
+
+img:hover
+
 input{
     height: 40px;
     width: 220px;
