@@ -16,25 +16,22 @@ fetch('https://valorant-api.com/v1/agents')
                 background.push(char.background)
                 console.log(background)
             }
-        })
-
-        
+        }) 
     })
     .catch((err) => console.log(err))
     
-    form.addEventListener('submit', (event) => {
-        event.preventDefault()
+form.addEventListener('submit', (event) => {
+    event.preventDefault()
+    getImage()
+})
 
-        getImage()
-    })
-
-    function getImage(){
-        const gen = Math.floor(Math.random() * agents.length)
-        div.innerHTML = ``
-        const img = document.createElement('img')
-        img.src = agents[gen]
-        img.style.width = '500px'
-        div.append(img)
-        }
+function getImage(){
+    const gen = Math.floor(Math.random() * agents.length)
+    div.innerHTML = ``
+    const img = document.createElement('img')
+    img.src = agents[gen]
+    img.style.width = '500px'
+    div.append(img)
+}
     
     

@@ -9,5 +9,3 @@
 - when button is pressed, the randomizer picks the Agent to play which will include:
     -Agent Name
     -Agent photo
-    -Agent role
-    -Agent abilities
