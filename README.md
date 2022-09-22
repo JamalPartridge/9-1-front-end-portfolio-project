@@ -6,4 +6,4 @@ My project is a character generator for the game Valorant. With a press of a but
 
 Imagine playing Valorant, with no clue on which to choose from. Well, you can have a randomizer decide for you! With one click, the Valorant randomizer chooses an Agent for you to play with.
 
-
+To try out the generator yourself, you can click this link. https://jamalpartridge.github.io/9-1-front-end-portfolio-project/
